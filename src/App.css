@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #F5F5F5;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} 
+
+.App {
+  text-align: center;
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  align-items: start;
+  margin-left: 20px;
+}
+
+.navbar img:hover{
+  cursor: pointer;
+}
+
+.content{
+  margin: 0 50px;
+}
+
+.header-img{
+  margin: 10px 0 20px 0;
+}
+
+.header-img text{
+  color: white;
+  position: absolute;
+  top: 300px;
+  left: 450px;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.category-header{
+  position: relative;
+  margin-left: 20px;
+  text-align: start;
+}
+
+.category-header-label{
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.category-header select{
+  border: 0;
+  height: 2.5em;
+  padding: 0.5em;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  text-align: center;
+
+}
+
+.card {
+  box-shadow: 1px 1px #E8E8E8;
+  margin: 20px;
+  text-align: center;
+  width: 90%;
+  height: 95%;
+  background-color: white;
+  border-radius: 2px;
+}
+
+.card:hover {
+  cursor: pointer;
+  background-color: 	#DCDCDC;
+}
+
+.card-text {
+  margin: 5px 0px;
+  font-size: 0.85em;
+  font-weight: bold;
+  text-align: start;
+  margin-left: 10px;
+}
+
+.card-text-dot{
+  height: 10px;
+  width: 10px;
+  margin-right: 10px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.content-section-outer {
+  display: flex;
+  justify-content: center;
+}
+
+.content-section-inner {
+  width: 50%;
+  text-align: start;
+  align-content: center;
+}
+
+.pagination-bar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.paginate{
+  width: 95%;
+  margin-top: 20px;
+}
